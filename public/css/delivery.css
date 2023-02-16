@@ -1,0 +1,455 @@
+.wedget-flex {
+  display: flex!important;
+}
+.list-unstyled {
+  list-style: none;
+}
+.delivery-group {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 15px;
+}
+.delivery-group .form-output {
+  position: relative;
+}
+.delivery-group .form-output .btn-icon,
+.delivery-group .form-output .datetimepicker {
+  position: absolute;
+  top: 10px;
+}
+.delivery-group .form-output .btn-icon {
+  right: -30px;
+}
+.delivery-group .form-output .datetimepicker {
+  right: 1px;
+}
+.delivery-group .form-output .datetimepicker a {
+  margin-left: 5px;
+}
+.wedget-delivery {
+  position: relative;
+}
+.wedget-delivery--pt35 {
+  padding-top: 35px;
+}
+.wedget-delivery--tabs {
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.wedget-delivery--tabs ul {
+  display: flex;
+}
+.wedget-delivery--tabs ul a {
+  color: #666666;
+  padding: 9px 25px;
+  display: block;
+  border-bottom-width: 2px;
+  border-color: transparent;
+  border-bottom-style: solid;
+}
+.wedget-delivery--tabs ul a.active {
+  color: #333333;
+  border-color: #4094da;
+  font-weight: bold;
+}
+.wedget-delivery--setting {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.wedget-delivery--table {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.wedget-delivery--table-header {
+  background-color: #d6f4fb;
+}
+.wedget-delivery--table-content {
+  max-height: 205px;
+  width: auto;
+  position: static;
+  overflow-x: hidden;
+  padding-right: 1px;
+}
+.wedget-delivery--table th,
+.wedget-delivery--table td {
+  padding: 12px 8px;
+}
+.wedget-delivery--table table {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 12px;
+  table-layout: fixed;
+}
+.wedget-delivery--table thead {
+  background-color: #d6f4fb;
+}
+.wedget-delivery--table thead th {
+  border-bottom: 1px solid #bce7f1;
+  color: #333333;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.wedget-delivery--table thead th > i {
+  margin-left: 10px;
+}
+.wedget-delivery--table tbody tr {
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #e8e8e8;
+}
+.wedget-delivery--table tbody tr:hover {
+  background-color: #f6fbf6;
+  border-color: #31af5d;
+  border-radius: 5px;
+}
+.wedget-delivery--table tbody tr:hover td {
+  border-top: 1px solid #31af5d;
+  border-bottom: 1px solid #31af5d;
+}
+.wedget-delivery--table .delivery-hvc--radio {
+  display: flex;
+  align-items: center;
+}
+.wedget-delivery--table .delivery-hvc--images {
+  width: 90px;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+.wedget-delivery--table .delivery-hvc--images img {
+  max-width: 60px;
+  height: auto;
+}
+.wedget-delivery--table .delivery-hvc--type span {
+  margin-bottom: 4px;
+  float: left;
+}
+.wedget-delivery--table .delivery-hvc--type i {
+  clear: both;
+  font-size: 11px;
+  float: left;
+}
+.wedget-delivery--table .delivery-price-special {
+  color: #e64040;
+}
+.wedget-delivery--table .delivery-price-box p {
+  margin-bottom: 4px;
+}
+.wedget-delivery--table .delivery-price-box del {
+  font-size: 11px;
+}
+.wedget-delivery--list {
+  margin-top: 20px;
+}
+.wedget-delivery--list .font-bold {
+  font-weight: normal!important;
+}
+.wedget-delivery--offline {
+  padding: 105px;
+  min-height: 280px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.wedget-delivery .delivery-offline {
+  color: #666666;
+}
+.wedget-delivery .delivery-offline--icon {
+  margin-bottom: 10px;
+}
+.wedget-delivery .delivery-offline--icon i {
+  font-size: 20px;
+  color: #999999;
+}
+.wedget-delivery .delivery--list-item {
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+}
+.wedget-delivery .delivery--list-item:last-child {
+  margin-bottom: 0;
+}
+.wedget-delivery .delivery--list-input {
+  max-width: 80px;
+  margin-left: 10px;
+  margin-right: 2px;
+}
+.wedget-delivery .delivery--list-input input {
+  height: 14px;
+  padding: 0;
+}
+.wedget-delivery .delivery--list-code {
+  position: relative;
+  width: 100%;
+}
+.wedget-delivery .delivery--list-code input {
+  height: 17px;
+  padding-right: 20px;
+}
+.wedget-delivery .delivery--list-code .btn-triangle {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.wedget-delivery .delivery--list-support {
+  justify-content: space-between;
+}
+.wedget-delivery .delivery--list-support input {
+  height: 17px;
+  max-width: 60px;
+}
+.wedget-delivery .delivery-dropdown {
+  position: relative;
+  display: block;
+  float: left;
+}
+.wedget-delivery .delivery-dropdown a {
+  position: relative;
+}
+.wedget-delivery .delivery-dropdown a span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+  overflow: hidden;
+  width: calc(100% - 10px);
+  float: left;
+  margin-right: 15px;
+}
+.wedget-delivery .delivery-dropdown a i {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.wedget-delivery .delivery-dropdown:hover .dropdown-menu {
+  display: block!important;
+}
+.wedget-delivery .delivery-dropdown .dropdown-menu a {
+  padding: 8px 10px;
+  display: block;
+  color: #666666;
+}
+.wedget-delivery .delivery-dropdown .dropdown-menu a:hover {
+  background-color: #f1f2f2;
+}
+.wedget-delivery .k-grid-header-wrap {
+  border: none;
+}
+.wedget-delivery--noService .delivery-dropdown {
+  margin-top: 14px;
+}
+.wedget-delivery--noService .control-label {
+  padding-top: 12px;
+}
+.wedget-delivery--noService .form-note textarea {
+  border: 0;
+}
+.wedget-delivery--noService .form-note textarea:hover,
+.wedget-delivery--noService .form-note textarea:focus,
+.wedget-delivery--noService .form-note textarea:active {
+  border: 0;
+}
+.wedget-delivery-popup {
+  position: fixed!important;
+  overflow: unset;
+  top: 30px!important;
+}
+.wedget-delivery-popup .k-window-content {
+  padding: 0!important;
+  overflow: unset!important;
+}
+.wedget-delivery-popup .wedget-delivery--list {
+  padding: 0 28px;
+}
+.wedget-delivery-popup .carriers {
+  background-color: #f0f0f0;
+  padding: 30px 28px;
+}
+.wedget-delivery-popup .carriers-list {
+  display: flex;
+}
+.wedget-delivery-popup .carriers-item {
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wedget-delivery-popup .carriers-item:not(:last-child) {
+  margin-right: 18px;
+}
+.wedget-delivery-popup .carriers-item:not(.active) .carriers-img img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+.wedget-delivery-popup .carriers-item.active {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+.wedget-delivery-popup .carriers-item.active .carriers-actions {
+  margin-top: -3px;
+}
+.wedget-delivery-popup .carriers-item.active .carriers-toogle {
+  background: #0090da;
+  transition: background 0.2s ease-out;
+}
+.wedget-delivery-popup .carriers-item.active .carriers-toogle:after {
+  color: #fff;
+  left: auto;
+  right: 6px;
+  transition: right 0.2s ease-out;
+}
+.wedget-delivery-popup .carriers-item.active .carriers-toogle:before {
+  right: -1px;
+  left: auto;
+  -webkit-box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.2);
+  transition: right 0.2s ease-out;
+}
+.wedget-delivery-popup .carriers-img img {
+  max-width: 100%;
+}
+.wedget-delivery-popup .carriers-toogle {
+  display: inline-block !important;
+  position: relative;
+  background: #dddddd;
+  border-radius: 15px;
+  min-width: inherit!important;
+  width: 44px!important;
+  height: 16px;
+}
+.wedget-delivery-popup .carriers-toogle:before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 100%;
+  -webkit-box-shadow: -2px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.wedget-delivery-popup .carriers-toogle:after {
+  content: "";
+  color: #999;
+  position: absolute;
+  font-size: 11px;
+  font-weight: 700;
+  top: 6px;
+  left: 5px;
+}
+.wedget-delivery-popup .carriers-actions {
+  padding: 5px;
+  display: block;
+  float: right;
+}
+.wedget-delivery-popup .deliverySetting-chooseService {
+  padding: 10px 28px;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .placeholder-text {
+  color: #999;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-dropdown {
+  min-width: 275px;
+  padding: 8px;
+  border-bottom: 1px solid #bababa;
+  position: relative;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-dropdown:hover:after,
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-dropdown:focus:after {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-dropdown:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #56ad51;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown {
+  max-height: 300px;
+  overflow-x: hidden;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown li {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown strong {
+  padding: 10px 20px;
+  display: block;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown a {
+  display: block;
+  color: #333333;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown ul .selected i {
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  display: block;
+  color: #4094da;
+}
+.wedget-delivery-popup .deliverySetting-chooseService .delivery-ul-dropdown ul a {
+  padding: 10px 30px;
+  position: relative;
+}
+.wedget-delivery-popup .delivery-checkBox-list {
+  display: flex;
+}
+.wedget-delivery-popup .delivery-checkBox-item:not(:last-child) {
+  margin-right: 20px;
+}
+.wedget-delivery-popup .k-footer {
+  padding: 28px;
+  margin-top: 15px;
+}
+.wedget-delivery .tdHVC {
+  max-width: 195px;
+  min-width: 195px;
+  width: 195px;
+}
+.wedget-delivery .tdPVC {
+  max-width: 90px;
+  min-width: 90px;
+  width: 90px;
+}
+.wedget-delivery .tdPTH {
+  max-width: 72px;
+  min-width: 72px;
+  width: 72px;
+}
+.wedget-delivery .tdTotal {
+  max-width: 60px;
+  min-width: 60px;
+  width: 60px;
+}
+.wedget-delivery .mb-15 {
+  margin-bottom: 15px;
+}
+.wedget-delivery .formControl-sm {
+  width: 100px;
+}
+.wedget-delivery .formControl-lg {
+  width: 185px;
+}

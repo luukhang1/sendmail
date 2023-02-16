@@ -1,0 +1,380 @@
+.text-alight--right {
+    text-align: right;
+}
+.wedget-flex {
+    display: flex !important;
+}
+.list-unstyled {
+    list-style: none;
+}
+.widget-delivery--face .wedget-delivery--tabs {
+    position: relative;
+}
+.widget-delivery--face .wedget-delivery--tabs ul {
+    display: flex;
+}
+.widget-delivery--face .wedget-delivery--tabs ul a {
+    color: #666666;
+    padding: 5px 25px;
+    display: block;
+    border-bottom-width: 2px;
+    border-color: transparent;
+    border-bottom-style: solid;
+    font-size: 14px;
+}
+.widget-delivery--face .wedget-delivery--tabs ul a.active {
+    color: #333333;
+    border-color: #4094da;
+    font-weight: bold;
+}
+.widget-delivery--face .wedget-delivery--tabs .wedget-delivery--setting {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.widget-delivery--face .wedget-delivery--table {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #d1d1d1;
+}
+.widget-delivery--face .wedget-delivery--table .wedget-delivery--table-header {
+    background-color: #d6f4fb;
+}
+.widget-delivery--face .wedget-delivery--table .wedget-delivery--table-content {
+    max-height: 420px;
+    width: auto;
+    position: static;
+    overflow-x: hidden;
+    padding-right: 1px;
+}
+.widget-delivery--face .wedget-delivery--table th, .widget-delivery--face .wedget-delivery--table td {
+    padding: 12px 8px;
+}
+.widget-delivery--face .wedget-delivery--table table {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 12px;
+    table-layout: fixed;
+}
+.widget-delivery--face .wedget-delivery--table thead {
+    background-color: #d6f4fb;
+}
+.widget-delivery--face .wedget-delivery--table thead th {
+    text-align: left;
+    color: #333333;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.widget-delivery--face .wedget-delivery--table thead th > i {
+    margin-left: 10px;
+}
+.widget-delivery--face .wedget-delivery--table tbody tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #e8e8e8;
+}
+.widget-delivery--face .wedget-delivery--table tbody tr:hover {
+    background-color: #f6fbf6;
+    border-color: #31af5d;
+}
+.widget-delivery--face .wedget-delivery--table tbody tr:hover td {
+    border-top: 1px solid #31af5d;
+    border-bottom: 1px solid #31af5d;
+}
+.widget-delivery--face .wedget-delivery--table tbody tr:hover td:last-child {
+    border-right: 1px solid #31af5d;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-hvc--radio {
+    display: flex;
+    align-items: center;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-hvc--images {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-hvc--images img {
+    max-width: 60px;
+    height: auto;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-hvc--type span {
+    margin-bottom: 4px;
+    float: left;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-hvc--type i {
+    clear: both;
+    font-size: 11px;
+    float: left;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-price-special {
+    color: #e64040;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-price-box p {
+    margin-bottom: 4px;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-price-box p.delivery-price-normal {
+    color: #333333;
+    font-weight: bold;
+}
+.widget-delivery--face .wedget-delivery--table .delivery-price-box del {
+    font-size: 11px;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery {
+    border-color: #ddd;
+    width: 196px;
+    padding-bottom: 2px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    margin-top: 0;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .popover-arrow {
+    display: none;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content .delivery-content--name {
+    color: #111;
+    font-size: 12px;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content .delivery-content--price p {
+    margin-bottom: 0;
+    font-size: 12px;
+    text-align: right;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content .delivery-content--price p.delivery-price-old {
+    font-size: 11px;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content .delivery-content--price p.delivery-price-normal {
+    color: #111;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content .delivery-content--price .delivery-price-old {
+    text-decoration: line-through;
+}
+.widget-delivery--face .wedget-delivery--table .detail-delivery .delivery-content.delivery-collection {
+    margin-top: 15px;
+}
+.widget-delivery--face .wedget-delivery--list {
+    margin-top: 16px;
+}
+.widget-delivery--face .wedget-delivery--list .font-bold {
+    font-weight: normal !important;
+}
+.widget-delivery--face .wedget-delivery--offline {
+    padding: 105px;
+    min-height: 280px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.widget-delivery--face .delivery-offline {
+    color: #666666;
+}
+.widget-delivery--face .delivery-offline--icon {
+    margin-bottom: 10px;
+}
+.widget-delivery--face .delivery-offline--icon i {
+    font-size: 20px;
+    color: #999999;
+}
+.widget-delivery--face .delivery--list-item {
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.widget-delivery--face .delivery--list-item .wedget-flex span {
+    font-size: 14px;
+}
+.widget-delivery--face .delivery--list-item .wedget-flex span .price-status {
+    padding-left: 15px;
+}
+.widget-delivery--face .delivery--list-item .checkbox-btn input + span {
+    margin-left: 0;
+}
+.widget-delivery--face .delivery--list-item.view-send--prduct > span {
+    border-bottom: 1px solid #bababc;
+    display: block;
+    position: relative;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+.widget-delivery--face .delivery--list-item.view-send--prduct > span:before {
+    content: '\f0d7';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666666;
+}
+.widget-delivery--face .delivery--list-item.view-send--prduct .dropdown-menu {
+    margin-top: 0;
+}
+.widget-delivery--face .delivery--list-item.user-payment--container {
+    padding-top: 3px;
+    margin-bottom: 25px;
+}
+.widget-delivery--face .delivery--list-item .popover {
+    border-color: #ddd;
+}
+.widget-delivery--face .delivery--list-item .popover .popover-arrow {
+    display: none;
+}
+.widget-delivery--face .delivery--list-input {
+    max-width: 80px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.widget-delivery--face .delivery--list-input input {
+    height: 14px;
+    padding: 0;
+}
+.widget-delivery--face .delivery--list-code {
+    position: relative;
+    width: 100%;
+}
+.widget-delivery--face .delivery--list-code input {
+    height: 17px;
+    padding-right: 20px;
+}
+.widget-delivery--face .delivery--list-code .btn-triangle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.widget-delivery--face .delivery--list-support {
+    justify-content: space-between;
+}
+.widget-delivery--face .delivery--list-support input {
+    height: 17px;
+    max-width: 60px;
+}
+.widget-delivery--face .delivery-dropdown {
+    position: relative;
+    display: block;
+}
+.widget-delivery--face .delivery-dropdown a {
+    position: relative;
+}
+.widget-delivery--face .delivery-dropdown a span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    overflow: hidden;
+    width: calc(100% - 10px);
+    float: left;
+    margin-right: 15px;
+}
+.widget-delivery--face .delivery-dropdown a i {
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.widget-delivery--face .delivery-dropdown .dropdown-menu {
+    position: absolute;
+    top: 15px !important;
+    left: 0 !important;
+}
+.widget-delivery--face .delivery-dropdown .dropdown-menu a {
+    padding: 8px 10px;
+    display: block;
+    color: #666666;
+}
+.widget-delivery--face .delivery-dropdown .dropdown-menu a:hover {
+    background-color: #f1f2f2;
+}
+.widget-delivery--face .k-grid-header-wrap {
+    border: none;
+}
+.widget-delivery--face .bs-popover-bottom ul {
+    list-style: none;
+}
+.widget-delivery--face .form-note:before {
+    top: 10px;
+}
+.widget-delivery--face .form-note textarea {
+    padding-left: 20px;
+    border: none;
+    background: transparent;
+    padding-top: 6px;
+}
+.widget-delivery--face .form-note textarea:focus {
+    box-shadow: none;
+}
+.widget-delivery--face .input-discount input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #bababc;
+    color: ;
+    font-size: 14px;
+    width: 100%;
+    height: 28px;
+}
+.widget-delivery--face .support-driver {
+    font-size: 14px;
+}
+.widget-delivery--face .support-driver input {
+    border: none;
+    background: transparent;
+    width: 65px;
+    border-bottom: 1px solid #bababc;
+    color: #111111;
+    font-size: 14px;
+    text-align: right;
+    padding-bottom: 6px;
+}
+.widget-delivery--face .support-driver .price-support {
+    color: #666666;
+}
+.widget-delivery--face .tdHVC {
+    max-width: 57%;
+    min-width: 57%;
+    width: 57%;
+}
+.widget-delivery--face .tdPVC {
+    max-width: 26%;
+    min-width: 26%;
+    width: 26%;
+}
+.widget-delivery--face .tdPTH {
+    max-width: 17%;
+    min-width: 17%;
+    width: 17%;
+}
+.widget-delivery--face .tdTotal {
+    max-width: 60px;
+    min-width: 60px;
+    width: 60px;
+}
+.widget-delivery--face .mb-15 {
+    margin-bottom: 15px;
+}
+.widget-delivery--face .formControl-sm {
+    width: 100px;
+}
+.widget-delivery--face .formControl-lg {
+    width: 185px;
+}
+.widget-delivery--face .wedget-delivery--table-content .delivery-hvc {
+    position: relative;
+}
+
+.widget-delivery--face .wedget-delivery--table .detail-delivery {
+    width: 196px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 12px 12px;
+}
